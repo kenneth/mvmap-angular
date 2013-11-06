@@ -6,6 +6,7 @@ define([
 	'controllers',
 	//'angularRoute',
 	'ui.router',
+	'ui.bootstrap',
 	], function (angular, filters, services, directives, controllers) {
 		'use strict';
 
@@ -15,6 +16,7 @@ define([
 			'myApp.filters',
 			'myApp.services',
 			'myApp.directives',
-			'ui.router'
+			'ui.router',
+			'ui.bootstrap',
 		]);
 });

@@ -3,6 +3,7 @@ require.config({
 		angular: '../../bower_components/angular/angular',
 		//angularRoute: '../../bower_components/angular-route/angular-route',
 		'ui.router': '../../bower_components/angular-ui-router/release/angular-ui-router.min',
+		'ui.bootstrap': '../../bower_components/angular-bootstrap/ui-bootstrap.min',
 		angularMocks: '../../bower_components/angular-mocks/angular-mocks',
 		text: '../../bower_components/requirejs-text/text'
 	},
@@ -11,6 +12,7 @@ require.config({
 		'angular' : {'exports' : 'angular'},
 		//'angularRoute': ['angular'],
 		'ui.router': ['angular'],
+		'ui.bootstrap': ['angular'],
 		'angularMocks': {
 			deps:['angular'],
 			'exports':'angular.mock'

@@ -17,6 +17,7 @@
     "requirejs-text": "~2.0.10"
   },
   "dependencies": {
-    "angular-ui-router": "~0.2.0"
+    "angular-ui-router": "~0.2.0",
+    "angular-bootstrap": "~0.6.0"
   }
 }
