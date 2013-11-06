@@ -24,11 +24,15 @@ define(['angular', 'app'], function(angular, app) {
 		$stateProvider
 			.state('view1', {
 				url: "/view1",
-				templateUrl: "app/partials/partial1.html"
+				templateUrl: "app/partials/partial1.html",
 			})
 			.state('view2', {
 				url: "/view2",
 				templateUrl: "app/partials/partial2.html",
+			})
+			.state('view3', {
+				url: "/view3",
+				templateUrl: "app/partials/partial3.html",
 			});
 		}]);
 
