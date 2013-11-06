@@ -4,15 +4,17 @@ define([
 	'services',
 	'directives',
 	'controllers',
-	'angularRoute',
+	//'angularRoute',
+	'ui.router',
 	], function (angular, filters, services, directives, controllers) {
 		'use strict';
 
 		return angular.module('myApp', [
-			'ngRoute',
+			//'ngRoute',
 			'myApp.controllers',
 			'myApp.filters',
 			'myApp.services',
-			'myApp.directives'
+			'myApp.directives',
+			'ui.router'
 		]);
 });

@@ -1,14 +1,16 @@
 require.config({
 	paths: {
 		angular: '../../bower_components/angular/angular',
-		angularRoute: '../../bower_components/angular-route/angular-route',
+		//angularRoute: '../../bower_components/angular-route/angular-route',
+		'ui.router': '../../bower_components/angular-ui-router/release/angular-ui-router.min',
 		angularMocks: '../../bower_components/angular-mocks/angular-mocks',
 		text: '../../bower_components/requirejs-text/text'
 	},
 	baseUrl: 'app/js',
 	shim: {
 		'angular' : {'exports' : 'angular'},
-		'angularRoute': ['angular'],
+		//'angularRoute': ['angular'],
+		'ui.router': ['angular'],
 		'angularMocks': {
 			deps:['angular'],
 			'exports':'angular.mock'
